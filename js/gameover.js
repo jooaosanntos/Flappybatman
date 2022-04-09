@@ -13,6 +13,6 @@ document.body.appendChild(audio)
 document.querySelector(".return").onclick = (event) => {
     document.querySelector(".click").play()
     setTimeout(() => {
-        window.location.href = "menu.html"
+        window.location.href = "index.html"
     }, 300)
 }
